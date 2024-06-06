@@ -1,0 +1,116 @@
+.container {
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.news-content {
+  padding: 15px;
+  background-color: white;
+}
+.content {
+  padding: 10px;
+}
+
+.article-img {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+  padding-bottom: 20px;
+}
+
+.article-img .date {
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: #eb0a1e;
+  color: white;
+  cursor: default;
+}
+
+.article-img .date p {
+  padding: 5px;
+  font-size: 30px;
+  margin-top: 0;
+}
+.article-img img {
+  height: 500px;
+  width: 100%;
+}
+
+.parent-btn {
+  text-align: right;
+}
+
+.share-btn {
+  background-color: transparent;
+  margin-top: 20px;
+  border: none;
+  font-weight: 600;
+  width: 80px;
+  padding: 10px;
+  color: #33404e;
+  cursor: pointer;
+}
+
+.news-article {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-article h1 {
+  color: #eb0a1e;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 0;
+  margin-top: 2px;
+}
+
+.news-article h2 {
+  color: #33404e;
+  margin-top: 0px;
+}
+
+.news-article p {
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.news-article a {
+  color: #33404e;
+  text-decoration: underline 2px;
+  text-underline-offset: 5px;
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.pagination {
+  display: flex;
+  gap: 5px;
+  margin-top: 50px;
+}
+
+.pagination button {
+  background-color: transparent;
+  border: 2px solid rgb(128, 128, 128, 0.2);
+  border-radius: 2px;
+  padding: 10px;
+  gap: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #33404e;
+  font-weight: 600;
+}
+
+.pagination button.active {
+  background-color: #eb0a1e;
+  color: white;
+}
